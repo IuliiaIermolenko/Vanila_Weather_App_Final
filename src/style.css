@@ -26,9 +26,16 @@ body {
 
 .mainTemp {
     text-align: center;
+    color: blue;
+    font-weight: 400;
+    font-size: 64px;
 }
 
-
+.mainTemp .units {
+    position: relative;
+    font-size: 24px;
+    top: -32px;
+}
 
 .celsius-link {
     color: #ffffff;
